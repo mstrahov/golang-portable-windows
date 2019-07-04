@@ -3,6 +3,11 @@ golang-portable-windows
 
 Go Programming Language - Portable Environment for Windows
 
+## update to go1.12.6 & git version 2.22.0.windows.1 (portable) & LiteIDE X36 (Qt 4.8.5)
+Forked from josephspurrier/golang-portable-windows, git 2.22 had to be included because of TLSv1 is not supported by github anymore.  Release was 7Zipped.  Binaries are just a copy of go, git2 portable and LiteIDE, ./git2 folder contains PortableGit-2.22.0-64-bit.7z contents, source: [git-scm](https://git-scm.com/download/win). 
+
+## Original description:
+
 This project allows you to set up a full Go environment in 30 seconds so you can start building Go applications. There is no installation necessary, just extract to your desktop or a portable drive. You can build Go applications using the included portable LiteIDE, the easy-to-use batch scripts, or from plain command prompt. The Go binaries are included so you don't have to build the Go language itself.
 
 The releases are now generated using this tool [goappmation](https://github.com/josephspurrier/goappmation/tree/master/project/Go%20Portable).
