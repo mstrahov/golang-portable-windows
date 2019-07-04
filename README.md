@@ -6,7 +6,7 @@ Go Programming Language - Portable Environment for Windows
 ## update to go1.12.6 & git version 2.22.0.windows.1 (portable) & LiteIDE X36 (Qt 4.8.5)
 Forked from josephspurrier/golang-portable-windows, git 2.22 had to be included because of TLSv1 is not supported by github anymore.  Release was 7Zipped.  Binaries are just a copy of go, git2 portable and LiteIDE, ./git2 folder contains PortableGit-2.22.0-64-bit.7z contents, source: [git-scm](https://git-scm.com/download/win). 
 
-New binary: https://github.com/mstrahov/golang-portable-windows/releases/tag/go1.12.6  (2019-07-04)
+New binary with go v1.12.6: https://github.com/mstrahov/golang-portable-windows/releases/tag/go1.12.6  (2019-07-04)
 
 ## Original description:
 
