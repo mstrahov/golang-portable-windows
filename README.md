@@ -3,8 +3,15 @@ golang-portable-windows
 
 Go Programming Language - Portable Environment for Windows
 
+## update to go1.17 & git version 2.32.0.windows.2 (portable) & LiteIDE X37.4 (Qt 5.14.2)
+Release was 7Zipped.  Binaries are just copies of go [go1.17.windows-amd64.zip](https://golang.org/dl/), git2 portable and LiteIDE [x37.4 release](https://github.com/visualfc/liteide/releases/tag/x37.4), ./git2 folder contains PortableGit-2.32.0.2-64-bit.7z contents, source: [git-scm](https://git-scm.com/download/win). 
+
+Added SET GO111MODULE=auto to default environment (both cmd and LiteIDE).
+
+New binary with go v1.17: https://github.com/mstrahov/golang-portable-windows/releases/tag/go1.17  (2021-08-23)
+
 ## update to go1.12.6 & git version 2.22.0.windows.1 (portable) & LiteIDE X36 (Qt 4.8.5)
-Forked from josephspurrier/golang-portable-windows, git 2.22 had to be included because of TLSv1 is not supported by github anymore.  Release was 7Zipped.  Binaries are just a copy of go, git2 portable and LiteIDE, ./git2 folder contains PortableGit-2.22.0-64-bit.7z contents, source: [git-scm](https://git-scm.com/download/win). 
+Forked from josephspurrier/golang-portable-windows, git 2.22 had to be included because of TLSv1 is not supported by github anymore.  Release was 7Zipped.  Binaries are just copies of go, git2 portable and LiteIDE, ./git2 folder contains PortableGit-2.22.0-64-bit.7z contents, source: [git-scm](https://git-scm.com/download/win). 
 
 New binary with go v1.12.6: https://github.com/mstrahov/golang-portable-windows/releases/tag/go1.12.6  (2019-07-04)
 
